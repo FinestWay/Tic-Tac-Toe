@@ -308,3 +308,9 @@ main {
         height: 46vh;
     }
 }
+
+@media screen and (max-width: 167px) {
+    h1{
+        font-size: 30px;
+    }
+}
