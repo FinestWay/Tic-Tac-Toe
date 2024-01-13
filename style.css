@@ -330,5 +330,12 @@ main {
 
     main{
         margin-bottom: 15px !important;
+        gap: 0px;
     }
+
+    #right{
+        margin-top: 0px;
+    }
+
+
 }
