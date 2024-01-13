@@ -163,7 +163,6 @@ main {
 @media screen and (max-width: 742px) {
 
     h1 {
-        font-size: 40px;
         margin-top: 5px !important;
     }
 
@@ -208,7 +207,7 @@ main {
 
 @media screen and (max-width: 412px) {
     h1 {
-        font-size: 40px;
+        font-size: 50px;
     }
 
     .box {
