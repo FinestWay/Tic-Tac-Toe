@@ -315,7 +315,7 @@ main {
     }
 }
 
-@media screen and (max-width: 450){
+@media screen and (max-width: 450px){
     h1{
         font-size: 35px;
     }
