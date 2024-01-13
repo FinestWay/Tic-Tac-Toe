@@ -314,3 +314,9 @@ main {
         font-size: 30px;
     }
 }
+
+@media screen and (max-width: 450){
+    h1{
+        font-size: 35px;
+    }
+}
