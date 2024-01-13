@@ -82,5 +82,5 @@ newGameBtn.addEventListener("click",() => {
 resetBtn.addEventListener("click", () => {
     resetGame();
     let applyVal = document.querySelector("#msg");
-    applyVal.innerHTML = "Retry"
+    applyVal.innerHTML = "Play Again"
 })
