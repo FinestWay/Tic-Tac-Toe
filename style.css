@@ -315,16 +315,20 @@ main {
     }
 }
 
+
+
 @media screen and (max-width: 450px){
     h1{
-        font-size: 50px;
+        font-size: 60px;
     }
 
     .box{
-    box-shadow: -150px -80px 300px 10px rgb(248, 248, 248) !important;
+    box-shadow:12px 12px 00px 0px rgb(104, 12, 12),
+        -600px -200px 300px 10px rgb(255, 255, 255),
+        100px 300px 300px 7px rgb(230, 20, 55),  -250px -180px 300px 10px rgb(248, 248, 248) !important;
     }
 
     main{
-        margin-bottom: 5px !important;
+        margin-bottom: 15px !important;
     }
 }
