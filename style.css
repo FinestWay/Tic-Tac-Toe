@@ -319,4 +319,12 @@ main {
     h1{
         font-size: 50px;
     }
+
+    .box{
+    box-shadow: -50px -200px 300px 10px grey o !important;
+    }
+
+    main{
+        margin-bottom: 5px !important;
+    }
 }
