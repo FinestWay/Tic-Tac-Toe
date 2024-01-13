@@ -324,8 +324,8 @@ main {
 
     .box{
     box-shadow:12px 12px 00px 0px rgb(104, 12, 12),
-        -600px -200px 300px 10px rgb(255, 255, 255),
-        100px 300px 300px 7px rgb(230, 20, 55),  -250px -180px 300px 10px rgb(248, 248, 248) !important;
+        200px 200px 300px 15px rgb(230, 20, 55),
+          -280px -280px 300px 10px rgb(248, 248, 248) !important;
     }
 
     main{
