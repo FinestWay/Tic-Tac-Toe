@@ -118,10 +118,10 @@ main {
     background-color: #c97878;
     box-shadow: 12px 12px 00px 0px rgb(104, 12, 12),
         -600px -200px 300px 10px rgb(255, 255, 255),
-        300px 200px 300px 10px rgb(189, 29, 56);
+        100px 300px 300px 7px rgb(189, 29, 56);
 }
 
-.box:first-child,
+/* .box:first-child,
 .box:nth-child(2),
 .box:nth-child(3),
 .box:nth-child(4),
@@ -133,7 +133,7 @@ main {
     box-shadow: inset 2px 2px 5px 0px rgb(255, 255, 255),
         12px 12px 0px 0px rgb(104, 12, 12),
         -600px -200px 660px 10px rgb(255, 255, 255);
-}
+} */
 
 .box:active {
     background-color: #52977af3;
