@@ -115,10 +115,10 @@ main {
     cursor: pointer;
     color: rgb(219, 210, 210);
     font-size: 50px;
-    background-color: #c97878;
+    background-color: #d14949;
     box-shadow: 12px 12px 00px 0px rgb(104, 12, 12),
-        -600px -200px 300px 10px rgb(255, 255, 255),
-        100px 300px 300px 7px rgb(189, 29, 56);
+    -600px -200px 300px 10px rgb(255, 255, 255),
+    100px 300px 300px 7px rgb(189, 29, 56);
 }
 
 .box:first-child,
@@ -131,12 +131,13 @@ main {
 .box:nth-child(8),
 .box:nth-child(9) {
     box-shadow: inset 2px 2px 5px 0px rgb(255, 255, 255),
-        12px 12px 0px 0px rgb(104, 12, 12),
-        -600px -200px 660px 10px rgb(255, 255, 255);
+    12px 12px 0px 0px rgb(104, 12, 12),
+    -600px -200px 660px 10px rgb(255, 255, 255);
 }
 
 .box:active {
     background-color: #52977af3;
+    background-color: rgba(178, 34, 34, 0.336);
     transition: background-color;
 }
 
@@ -264,7 +265,7 @@ main {
         margin: 9px;
     }
 
-    h1{
+    h1 {
         font-size: 30px;
     }
 }
@@ -310,32 +311,37 @@ main {
 }
 
 @media screen and (max-width: 167px) {
-    h1{
+    h1 {
         font-size: 30px;
     }
 }
 
 
 
-@media screen and (max-width: 450px){
-    h1{
+@media screen and (max-width: 450px) {
+    h1 {
         font-size: 60px;
     }
 
-    .box{
-    box-shadow:inset 1px 1px 2px 0px white,12px 12px 00px 0px rgb(104, 12, 12),
-        200px 200px 300px 15px rgb(230, 20, 55),
-          -280px -280px 300px 10px rgb(248, 248, 248) !important;
-    }
+    .box {
+        box-shadow: inset 1px 1px 2px 0px white, 12px 12px 00px 0px rgb(104, 12, 12),
+            200px 200px 300px 15px rgb(230, 20, 55),
+            -280px -280px 300px 10px rgb(248, 248, 248) !important;
+        }
 
-    main{
+    main {
         margin-bottom: 15px !important;
         gap: 0px;
     }
 
-    #right{
+    #right {
         margin-top: 0px;
     }
 
-
+    /* #msg {
+        z-index: 10;
+        position: absolute;
+        top: 31vh;
+        color: floralwhite;
+    } */
 }
