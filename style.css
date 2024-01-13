@@ -117,8 +117,8 @@ main {
     font-size: 50px;
     background-color: rgb(187, 75, 75);
     box-shadow: 12px 12px 00px 0px rgb(104, 12, 12),
-    -600px -200px 300px 10px rgb(255, 255, 255),
-    100px 300px 300px 7px rgb(189, 29, 56);
+        -600px -200px 300px 10px rgb(255, 255, 255),
+        100px 300px 300px 7px rgb(189, 29, 56);
 }
 
 .box:first-child,
@@ -131,8 +131,8 @@ main {
 .box:nth-child(8),
 .box:nth-child(9) {
     box-shadow: inset 2px 2px 5px 0px rgb(255, 255, 255),
-    12px 12px 0px 0px rgb(104, 12, 12),
-    -600px -200px 660px 10px rgb(255, 255, 255);
+        12px 12px 0px 0px rgb(104, 12, 12),
+        -600px -200px 660px 10px rgb(255, 255, 255);
 }
 
 .box:active {
@@ -327,7 +327,7 @@ main {
         box-shadow: inset 1px 1px 2px 0px white, 12px 12px 00px 0px rgb(104, 12, 12),
             200px 200px 300px 15px rgb(230, 20, 55),
             -280px -280px 300px 10px rgb(248, 248, 248) !important;
-        }
+    }
 
     main {
         margin-bottom: 15px !important;
@@ -338,16 +338,22 @@ main {
         margin-top: 0px;
     }
 
-    .box{
+    .box {
         height: 100px;
         /* width: 100px; */
-        gap: 0px;
+
     }
 
-    /* #msg {
+    .game {
+        height: 335px;
+        width: 500px;
+    }
+
+
+        /* #msg {
         z-index: 10;
         position: absolute;
         top: 31vh;
         color: floralwhite;
     } */
-}
+    }
