@@ -59,7 +59,7 @@ h1 {
     font-size: 50px;
     color: rgb(231, 227, 0);
     font-family: cursive;
-    background-color: brown;
+    background-color: none;
     text-decoration-color: rgb(206, 195, 206);
     text-shadow: 2px 4px 2px rgb(148, 148, 165);
 }
