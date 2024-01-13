@@ -321,7 +321,7 @@ main {
     }
 
     .box{
-    box-shadow: -50px -50px 300px 10px grey !important;
+    box-shadow: -150px -80px 300px 10px rgb(248, 248, 248) !important;
     }
 
     main{
