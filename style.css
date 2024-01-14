@@ -337,17 +337,30 @@ main {
     #right {
         margin-top: 0px;
     }
-/* 
+
+    #msg {
+        transform: translateY(-300px);
+        transition: transform 0.5s ease-in-out;
+    }
+
+    /* #msg{
+        transition: all 2s ease-in-out;
+    }
+    
+    #msg.active{
+        transform: translateY(-300px);
+    } */
+    /* 
     .game {
         height: 335px;
         width: 500px;
     } */
 
 
-        /* #msg {
+    /* #msg {
         z-index: 10;
         position: absolute;
         top: 31vh;
         color: floralwhite;
     } */
-    }
+}

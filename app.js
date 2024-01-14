@@ -79,6 +79,7 @@ const checkWinner = () => {
         if (position1 != "" && position2 != "" && position3 != "") {
             if (position1 === position2 && position2 === position3) {
                 let applyText = document.querySelector("#msg");
+                applyText.style.transition = "all 3s ease-in-out"
                 applyText.innerHTML = `Winner is Player ${position1}`;
                 disabledBoxes();
                 draw = false; 
