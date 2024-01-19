@@ -62,9 +62,8 @@ h1 {
     background-color: none;
     text-decoration-color: rgb(206, 195, 206);
     text-shadow: 2px 4px 2px rgb(148, 148, 165);
-    animation: up 3s 2;
+    animation: up 3s 1;
     animation-timing-function: ease-in;
-    position: relative;
 }
 
 @keyframes up {
